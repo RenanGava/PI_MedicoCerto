@@ -1,4 +1,6 @@
-export default {
+import { DefaultTheme } from "styled-components/native";
+
+export const theme: DefaultTheme =  {
 
     colors:{
         // sessao verde
