@@ -1,12 +1,22 @@
-import { StatusBar } from "expo-status-bar";
-// import { Text } from "react-native";
-import { Container, Text } from "./styles";
+import { Container, ContainerButtons} from "./styles";
+import { CarouselComponent } from "../../components/Carrousel";
+import { Button } from "../../components/Button";
+
 
 export default function HomeScreen() {
   return (
     <Container>
-      <Text>Templatre Pronto!</Text>
-      <StatusBar style="auto" />
+      <CarouselComponent />
+      <ContainerButtons>
+        <Button
+          color="green"
+          placeholder="CRIAR CONTA"
+        />
+        <Button
+          color="white"
+          placeholder="JÁ TENHO CONTA"
+        />
+      </ContainerButtons>
     </Container>
   );
 }
