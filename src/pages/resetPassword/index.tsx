@@ -1,10 +1,8 @@
 import {
   Container,
   ContainerButtons,
-  ContainerInputPassword,
   ContainerInputs,
   Text,
-  TextResetPassword,
 } from "./styles";
 import { Button } from "../../components/Button";
 import { useNavigation } from "@react-navigation/native";
@@ -19,8 +17,8 @@ export default function ResetPasswordScreen() {
   return (
     <Container>
       <Text>
-           seu Email para receber um condigo de validacao, ap'os validar o
-        codigo voce ser'a enviado a tela de criacao de senha
+        seu Email para receber um condigo de validacao, ap'os validar o codigo
+        voce ser'a enviado a tela de criacao de senha
       </Text>
       <ContainerInputs>
         <Input placeholder="Qual o seu email?" />
@@ -30,7 +28,7 @@ export default function ResetPasswordScreen() {
           color="green"
           placeholder="Enviar Codigo"
           onPress={() => {
-            navigate("Home");
+            navigate("VerifyCode");
           }}
         />
       </ContainerButtons>
