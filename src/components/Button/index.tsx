@@ -1,14 +1,16 @@
+import { TouchableOpacityProps } from "react-native";
 import { Container, Text } from "./styled";
 
-interface ButtonProps {
+interface ButtonProps extends TouchableOpacityProps {
   placeholder: string;
   color: "green" | "white";
+  onPress: () => void
 }
 
-export function Button({ color, placeholder }: ButtonProps) {
+export function Button(props: ButtonProps){
   return (
-    <Container color={color}>
-      <Text color={color}>{placeholder}</Text>
+    <Container {...props}>
+      <Text color={props.color}>{props.placeholder}</Text>
     </Container>
   );
 }

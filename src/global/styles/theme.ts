@@ -21,10 +21,10 @@ export const theme: DefaultTheme =  {
 
         // Sessao Preto
         balck900: '#000000',
-        
-        //Sessao Cinza
-        gray900:'#2E2E2E'
 
+        //Sessao Cinza
+        gray900: '#2E2E2E',
+        gray100: "#d2d2d2"
     }
 
 }

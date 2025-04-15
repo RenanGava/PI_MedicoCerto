@@ -29,7 +29,8 @@ declare module 'styled-components/native'{
             balck900: '#000000',
             
             //Sessao Cinza
-            gray900:'#2E2E2E'
+            gray900:'#2E2E2E',
+            gray100: '#d2d2d2'
     
         }
     }
