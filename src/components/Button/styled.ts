@@ -8,7 +8,7 @@ export const Container = styled.TouchableOpacity<ContainerProps>`
   align-items: center;
   /* justify-content: center; */
   height: 50px;
-  width: 350px;
+  width: 90%;
   border-radius: 50px;
   justify-content: center;
   background-color: ${(props) =>

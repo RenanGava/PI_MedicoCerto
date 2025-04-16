@@ -9,6 +9,7 @@ import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamsList } from "../../routes/index.routes";
 import { Input } from "../../components/Input";
+import { ConfirmCircle } from "../../components/ComfirmCircle";
 
 type NavigationProps = NativeStackNavigationProp<RootStackParamsList, "Home">;
 export default function ResetPasswordScreen() {

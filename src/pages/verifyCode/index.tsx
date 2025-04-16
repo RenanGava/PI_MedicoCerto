@@ -4,10 +4,17 @@ import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamsList } from "../../routes/index.routes";
 import { Input } from "../../components/Input";
+import { useState } from "react";
+import { ComfirmationModal } from "../../components/Modal/ComfirmationModal";
 
 type NavigationProps = NativeStackNavigationProp<RootStackParamsList, "Home">;
 export default function VerifyCodeScreen() {
   const { navigate } = useNavigation<NavigationProps>();
+
+
+  async function handleVerifyCode(){
+    
+  }
 
   return (
     <Container>

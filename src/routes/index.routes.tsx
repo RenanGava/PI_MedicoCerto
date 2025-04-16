@@ -23,7 +23,7 @@ const Stack = createNativeStackNavigator<RootStackParamsList>();
 
 export function Routes() {
   return (
-    <Stack.Navigator initialRouteName="Login" screenOptions={{
+    <Stack.Navigator initialRouteName="Home" screenOptions={{
       headerShown: true,
       header: (props:NativeStackHeaderProps) => {
         return <Header  {...props}/>
@@ -35,10 +35,8 @@ export function Routes() {
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Register" component={RegisterScreen} />
       <Stack.Screen name="ResetPassword" component={ResetPasswordScreen} />
-      {/*  */}
       <Stack.Screen name="CreatePassword" component={CreatePasswordScreen} />
       <Stack.Screen name="VerifyCode" component={VerifyCodeScreen} />
-      {/* VerifyCodeScreen */}
     </Stack.Navigator>
   );
 }
