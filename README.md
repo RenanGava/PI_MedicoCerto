@@ -75,6 +75,25 @@ Jsvascript - TypeScript - Shell - Dockerfile
 
 ---
 
+## ❓ FAQ (Perguntas Frequentes)
+
+🔍 Como os médicos são verificados no aplicativo?
+Os médicos cadastrados precisam fornecer seu número de CRM e demais credenciais para validação. Além disso, os usuários podem visualizar avaliações de outros pacientes para garantir transparência na escolha.
+
+📱 Como funciona o agendamento de consultas?
+Os pacientes podem buscar médicos usando filtros personalizados, visualizar perfis detalhados e agendar consultas diretamente pelo app, escolhendo horários disponíveis e recebendo confirmação automática.
+
+💳 Quais formas de pagamento estão disponíveis?
+O Médico Certo aceita pagamentos via PIX, cartão de crédito/débito e até Bitcoin. Assim, os pacientes podem escolher a opção mais conveniente para suas consultas.
+
+🏥 O aplicativo permite consultas presenciais e remotas?
+Sim! Os usuários podem filtrar médicos que oferecem atendimento presencial ou por telemedicina, garantindo maior flexibilidade na escolha.
+
+⭐ Como funcionam as avaliações dos médicos?
+Após cada consulta, os pacientes podem deixar comentários e avaliar o profissional com base em critérios como atendimento, pontualidade e eficácia do tratamento. Essas avaliações ajudam outros usuários a tomar decisões mais informadas.
+
+---
+
 ## 📈 Conclusão
 
 O **Médico Certo** vai além do agendamento comum. Ele empodera o paciente com ferramentas modernas para escolher o melhor atendimento, adaptado ao seu estilo de vida. Ao unir **transparência**, **tecnologia** e **personalização**, o projeto redefine a forma como acessamos cuidados médicos no século XXI.
