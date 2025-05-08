@@ -103,3 +103,8 @@ O **Médico Certo** vai além do agendamento comum. Ele empodera o paciente com 
 ## 🔗 Repositório
 
 Este projeto integra a [API disponível no GitHub](https://github.com/RenanGava/MedCertoAPI), responsável por gerenciar autenticação, busca de médicos, agendamentos, pagamentos e muito mais.
+
+## 🖼️ Figma
+
+Você pode visualizar o protótipo do projeto através do link abaixo:
+[👉 Acessar o protótipo no Figma](https://www.figma.com/design/OIwtb29cFZ4r0OWVnlZMI5/Untitled?node-id=71-1151&p=f&t=Kqurh10XYm4FIubB-0)
