@@ -1,16 +1,19 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { Routes } from "./src/routes/index.routes";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./src/global/styles/theme";
-import { SafeAreaView } from "react-native";
 import { StatusBar } from "expo-status-bar";
-
+import { AuthContextProvider, useAuth } from "./src/context/AuthContext";
+import { Routes } from "./src/routes/index.routes";
 export default function App() {
+
+  const { isAuthenticated } = useAuth()
   return (
     <ThemeProvider theme={theme}>
-      <StatusBar hidden={true} />
+      <StatusBar/>
       <NavigationContainer>
-        <Routes />
+        <AuthContextProvider>
+         <Routes/>
+        </AuthContextProvider>
       </NavigationContainer>
     </ThemeProvider>
   );

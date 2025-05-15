@@ -15,7 +15,7 @@ declare module 'styled-components/native'{
             green100: '#94D1BE',
     
             // Sessao branco
-            withe000: '#FFFFFF',
+            white000: '#FFFFFF',
             white100: '#EEEFEF',
             wihte300: '#E5E2DF',
     
@@ -30,7 +30,8 @@ declare module 'styled-components/native'{
             
             //Sessao Cinza
             gray900:'#2E2E2E',
-            gray100: '#d2d2d2'
+            gray100: '#d2d2d2',
+            success: '#2ede2e'
     
         }
     }

@@ -24,7 +24,8 @@ export const theme: DefaultTheme =  {
 
         //Sessao Cinza
         gray900: '#2E2E2E',
-        gray100: "#d2d2d2"
+        gray100: "#d2d2d2",
+        success: "#2ede2e"
     }
 
 }
