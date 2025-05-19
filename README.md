@@ -3,6 +3,7 @@
 ## 📱 Sobre o Projeto
 
 **Médico Certo** é um aplicativo mobile inovador que conecta pacientes a profissionais de saúde de forma prática, transparente e personalizada. O app permite buscar médicos com base em preferências específicas (como dietas veganas ou low-carb), localização, modalidade de atendimento (presencial ou remoto), convênios e até forma de pagamento, incluindo Bitcoin.
+**Link Back-End:** https://github.com/RenanGava/MedCertoAPI
 
 ---
 
