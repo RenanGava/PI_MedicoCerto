@@ -86,6 +86,9 @@ A prova de conceito do **Médico Certo** validará a viabilidade técnica e de u
 - 💸 **Integração de pagamentos com Bitcoin**, além de cartão e PIX.  
 - ⭐ **Sistema de avaliações reais de pacientes**, com rankings e comentários.
 
+Figma do projeto:
+https://www.figma.com/design/OIwtb29cFZ4r0OWVnlZMI5/Untitled?node-id=71-1151&p=f&t=oT5wJIodyvJtlGIp-0
+
 Essa versão inicial demonstrará como a personalização, tecnologia e acessibilidade podem transformar a experiência de encontrar e agendar consultas médicas.
 
 
